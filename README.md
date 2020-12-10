@@ -1,11 +1,21 @@
 # freshdesk-tools
 
-Transformador de reportes del software [Freshdesk®](https://freshdesk.com/) de
-la empresa [Freshworks®](https://www.freshworks.com/)
+Software reporting transformer [Freshdesk®](https://freshdesk.com/)
+of the company [Freshworks®](https://www.freshworks.com/)
 
-## Uso
+## Usage
 
-1. Haga clic con el botón derecho en lifecycle-to-excel-time.ps1
-2. Ejecutar con PowerShell
-3. Le pedirá el archivo fuente
-4. Le pedirá el archivo a generar
+## LifeCycle export to MS Excel® time
+
+1. Right click on lifecycle-to-excel-time.ps1
+2. Run with PowerShell
+3. It will ask for the source file
+4. It will ask you for the file to generate
+
+## Export ticket stats
+
+1. Right click on get-all-freshdesk-tickets-stats.ps1
+2. Run with PowerShell
+3. It will ask for subdomain
+4. It will ask for api key
+5. It will ask you for the file to generate (*.csv)
